@@ -1,0 +1,199 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+   }
+	
+body{
+	background: url(../img/fondo.jpg);
+	background-position: top center;
+	width:1000px;
+	}
+/*---------------------------*/
+/*---------------------------*/
+/*--CABEZA---*/
+
+header{
+	position: relative;
+	width:1010px;
+	height:105px;
+	background:rgba(255,255,0,.5);
+	}
+#logo{
+	position: absolute;
+	top:25px;
+	left:428px;
+	width:138px;
+	height:45px;
+}	
+/*-- FIN CABEZA---*/
+/*---------------------------*/
+/*---------------------------*/
+/*--NAVEGACION---*/
+nav{
+   position: relative;	
+	left:15px;
+	width: 932px;
+	top:2px;
+	height:32px;
+	background:rgba(255,0,0,.5);
+}
+nav ul{
+	position: absolute;	
+	top:0;
+	left:0;
+	width: 932px;
+	height:32px;
+	background:rgba(0,255,0,.5);
+	}
+nav ul li{
+	float:left;
+	width:153px;
+	line-height:34px;
+	text-align:left;
+	font-size: 14px;
+	color:black;
+	background: rgba(0,255,0,.5);
+	border-right:2px solid white;
+	}
+	
+/*-- FIN NAVEGACION---*/
+/*---------------------------*/
+/*---------------------------*/
+/*--ECABEZADO DE SECCION---*/
+#encabezado1 h1 {
+	top:158px;
+	margin:17px;
+	position:absolute;
+	text-align: left;
+	line-height:25px;
+	font-family: arial;
+	font-size: 21px;
+	}
+#encabezado1 p {
+	top:190px;
+	margin:15px;
+	position:absolute;
+	text-align: left;
+	line-height:25px;
+	font-family: arial;
+	font-size: 12px;
+	}
+
+/*-- FIN ECABEZADO DE SECCION---*/
+/*---------------------------*/
+/*---------------------------*/
+/*---SECCION---*/
+
+	section	{
+	position:relative;
+	width:928px;
+	height:1300px;
+	top:140px;
+	left:20px;
+	background:rgba(255,0,0,.5);
+}
+#cuerpocentral1 h2{
+	position:absolute;
+	top:25px;
+	text-align:left;
+	line-height:2px;
+	font-family:arial;
+	font-size: 18px;
+	left:35px;
+	}
+#cuerpocentral1 p{	
+	position:absolute;
+	top:42px;
+	text-align:left;
+	line-height:2px;
+	font-family:arial;
+	font-size: 13px;
+	left:35px;
+	}
+#imagengrande{
+	position:absolute;
+	top:65px;
+	left:50px;
+	width:454px;
+	height:285px;
+	background:rgba(0,255,0,.5);
+}
+#galeria {
+	position:relative;
+	top:280px;
+	left:0px;
+	width:242px;
+	height:48px;
+	background:rgba(0,255,0,.5);
+}
+#galeria ul {
+	position:relative;
+	top:0px;
+	left:0px;
+	width:242px;
+	height:48px;
+	background:rgba(0,255,0,.5);
+}
+#galeria ul li{
+	float:left;
+	width:69px;
+	height:47px;
+	margin:2px;
+	background: rgba(0,255,0,.5);
+	border:2px solid white;
+}
+#piedeimagen p{
+	position: absolute;
+	top:360px;
+	font-family:arial;
+	font-size: 13px;
+	line-height: 50px;
+}
+#piedeimagen h3{
+	position: absolute;
+	top:482px;
+	left:12px;
+	font-family: arial;
+	font-size:15px;
+	line-height:10px;
+}
+#primera{
+	position:absolute;
+	top:510px;
+	left:15px;
+	}
+#primera th td{
+	border:1px solid black;
+}
+/*-- FIN SECCION---*/
+/*---------------------------*/
+/*---------------------------*/
+/*---BOTON CONTINUAR---*/
+
+#bottom{
+	position:relative;
+	top:160px;
+	left: 20px;
+	width:934px;
+	height:49px;
+	background:rgba(0,255,0,.5);
+	text-align: center;
+	line-height:45px;
+	font-size: 22px;
+    }
+/*-- FIN BOTON CONTINUAR---*/
+/*---------------------------*/
+/*---------------------------*/
+/*---FOOTER---*/
+
+footer{
+	position:relative;
+	top:210px;
+	width:1010px;
+	height:215px;
+	background:rgba(0,255,0,.5);
+	
+}
+
