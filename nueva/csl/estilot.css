@@ -1,0 +1,332 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+   }
+	
+
+body{ background-position: top-center;
+     background-color:white;
+	 width:1080px;
+	}
+/*---------------------------*/
+/*---------------------------*/
+/*--CABEZA---*/
+
+header{
+	position: relative;
+	width:1085px;
+	height:105px;
+	left:80px;
+	background: url(../imge/header.jpg);
+	
+	}
+#logo{
+	position: absolute;
+	top:25px;
+	left:476px;
+	width:138px;
+	height:45px;
+}	
+/*-- FIN CABEZA---*/
+/*---------------------------*/
+/*---------------------------*/
+/*--NAVEGACION---*/
+nav{
+   position: relative;	
+	left:140px;
+	width: 932px;
+	top:2px;
+	height:32px;
+	background:url(../imge/nav.jpg);
+}
+nav ul{
+	position: absolute;	
+	top:0;
+	left:0px;
+	width: 932px;
+	height:32px;
+	background:rgba(0,255,0,.5);
+	}
+nav ul li{
+	float:left;
+	width:153px;
+	line-height:34px;
+	text-align:left;
+	font-size: 14px;
+	color:black;
+	background:url(../imge/nav.jpg);
+	border-right:2px solid white;
+	}
+	
+/*-- FIN NAVEGACION---*/
+/*---------------------------*/
+/*---------------------------*/
+/*--ECABEZADO DE SECCION---*/
+#encabezado1 h1 {
+	top:158px;
+	left:128px;
+	margin:17px;
+	position:absolute;
+	text-align: left;
+	line-height:25px;
+	font-family: arial;
+	font-size: 21px;
+	}
+#encabezado1 p {
+	top:190px;
+	margin:15px;
+	left:131px;
+	position:absolute;
+	text-align: left;
+	line-height:25px;
+	font-family: arial;
+	font-size: 12px;
+	}
+
+/*-- FIN ECABEZADO DE SECCION---*/
+/*---------------------------*/
+/*---------------------------*/
+/*---SECCION---*/
+
+	section	{
+	position:relative;
+	width:928px;
+	height:1275px;
+	top:140px;
+	left:150px;
+	background:#f2f2f2;
+	border-radius: 5px;
+}
+#cuerpocentral1 h2{
+	position:absolute;
+	top:25px;
+	text-align:left;
+	line-height:2px;
+	font-family:arial;
+	font-size: 18px;
+	left:35px;
+	}
+#cuerpocentral1 p{	
+	position:absolute;
+	top:42px;
+	text-align:left;
+	line-height:2px;
+	font-family:arial;
+	font-size: 13px;
+	left:35px;
+	}
+
+#imagengrande{
+	position:absolute;
+	top:65px;
+	left:50px;
+	width:454px;
+	height:285px;
+	background:url(../imge/fhotel.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	border:  solid #bfbfbf 1px;
+	padding:none;
+	
+}
+#galeria {
+	position:relative;
+	top:280px;
+	left:0px;
+	width:242px;
+	height:48px;
+	
+}
+#galeria ul {
+	position:relative;
+	top:0px;
+	left:0px;
+	width:242px;
+	height:48px;
+	
+}
+#galeria ul li{
+	float:left;
+	width:69px;
+	height:47px;
+	margin:2px;
+	border:1px solid white;
+}
+#piedeimagen p{
+	position: absolute;
+	top:360px;
+	font-family:arial;
+	font-size: 13px;
+	line-height: 50px;
+}
+#piedeimagen h3{
+	position: absolute;
+	top:482px;
+	left:12px;
+	font-family: arial;
+	font-size:15px;
+	line-height:10px;
+}
+table {
+	position:absolute;
+	top:500px;
+    border-left:1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-collapse: collapse;
+    width: 820px;
+	height:227px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #e6e6e6;
+    color: black;
+    font-family: arial;
+    font-size:12px;
+    text-align:center;    
+}
+td{border-right:1px solid #e6e6e6;
+   }
+
+#listas h4{
+	position:absolute;
+	top:750px;
+	left:20px;
+	}
+#listas ul{
+	position: absolute;
+	top:770px;
+	
+	}
+#listas li{
+	margin: 15px;
+	border-bottom: dashed 1px;
+	width: 820px;
+	}	
+#listas p{
+	position: absolute;
+	top:150px;
+	left: 15px;
+}
+#lista h5{
+	position:absolute;
+	top:960px;
+	left:20px;
+	font-size: 15px;
+	}
+#lista ul{
+	position: absolute;
+	top:970px;
+	
+	}
+#lista li{
+	margin: 15px;
+	border-bottom: dashed 1px;
+	width: 820px;
+	}	
+#lista p{
+	position: absolute;
+	top:150px;
+	left: 15px;
+}	
+#estrellas {
+	position:absolute;
+	left: 130px;
+	top:20px;
+	width:70px;
+	height:15px;
+	}	
+
+/*-- FIN SECCION---*/
+/*---------------------------*/
+/*---------------------------*/
+/*---BOTON CONTINUAR---*/
+
+#bottom ul{
+	position:relative;
+	top:188px;
+	left: 146px;
+	width:934px;
+	height:47px;
+	background:url(../imge/continue.jpg);
+	border-radius:2px;
+	   
+    }
+#bottom li{	 
+    margin-left:22px;
+    color:white;
+    text-align: center;
+	line-height:45px;
+	font-size: 17px;
+	font-family:arial;
+	}
+	
+/*-- FIN BOTON CONTINUAR---*/
+/*---------------------------*/
+/*---------------------------*/
+/*---FOOTER---*/
+
+footer{
+	position:relative;
+	left:82px;
+	top:240px;
+	width:1081px;
+	height:290px;
+	background:url(../imge/footer.jpg);;
+	
+}
+#espacio{
+	position:absolute;
+	top:0px;
+	width:1081px;
+	height:105px;
+	background:url(../imge/espacio.jpg);
+}
+#logo1{
+	position:absolute;
+	top:130px;
+	left:55px;
+	width:114px;
+	height:42px;
+	
+}
+#nav1{
+   position: relative;	
+	left:470px;
+	width: 587px;
+	top:150px;
+	height:32px;
+	background:rgba(255,0,0,.5);
+}
+#nav1 ul{
+	position: absolute;	
+	top:150;
+	left:0px;
+	width: 587px;
+	height:32px;
+	background:rgba(0,255,0,.5);
+	}
+#nav1 ul li{
+	float:left;
+	width:116px;
+	line-height:34px;
+	text-align:left;
+	font-size: 10px;
+	color:black;
+	background: rgba(0,255,0,.5);
+	border-right:1px solid white;
+	font-family:arial;
+	}
+#linea{
+	position:absolute;
+	width:1071px;
+	height:5px;
+	background:url(../imge/linea.jpg);
+	top:205px;
+}
